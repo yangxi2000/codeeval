@@ -48,16 +48,8 @@ def main():
         (lst, number) = test.strip().split(' | ')
         names = lst.split(' ')
         number = int(number)
-        tmp_number = number
-        index = 0
         while len(names) > 1:
-
-            if tmp_number <= len(names):
-                del names[tmp_number -1]
-            if tmp_number > len(names):
-                index = tmp_number % len(names) - 1
-                del names[index]
-                
+                del names[number % len(names) - 1]
                 
         print names[0]
      
