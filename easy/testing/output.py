@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-"""black card
-TESTING
+"""TESTING
 CHALLENGE DESCRIPTION:
 
 In many teams, there is a person who tests a project, finds bugs and errors, and prioritizes them.
